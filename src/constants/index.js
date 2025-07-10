@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, stalin, hitler } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -72,16 +72,16 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
+        imgURL: hitler,
+        customerName: 'Adolf Hitler',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Sepatu keren, berkelas. Saya pakai saat memberi intruksi menyerang eropa. Sangat Rekomended!"
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        imgURL: stalin,
+        customerName: 'Joseph Stalin',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Mantull. Membuat hitler tidak bisa menguasai negara kami. Mampus kau hahaha!"
     }
 ];
 
@@ -111,14 +111,14 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "rachadrisyh@gmail.com", link: "mailto:rachadrisyh@gmail.com" },
+            { name: "+62808099090", link: "tel:+62808099090" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", link:"https://www.facebook.com/rachmat.adriansyah.75" },
+    { src: twitter, alt: "twitter logo", link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1&t=0" },
+    { src: instagram, alt: "instagram logo", link:"https://www.instagram.com/halo_bangg_"},
 ];
